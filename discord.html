@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Discord Profile UI</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.cdnfonts.com/css/gg-sans-2" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+<div class="profile-container">
+  
+    <div class="top-bar">
+      <div class="top-icons">
+        <a href="scanqr.html">
+          <img src="assets/qr-code_8721150.png" alt="QR Code" class="icon">
+        </a>
+        <img src="assets/nitro.png" alt="Nitro" class="icon">
+        <img src="assets/setting.png" alt="Settings" class="icon">
+      </div>
+    </div>
+
+    <div class="profile-header">
+      <div class="avatar-wrapper">
+        <img src="assets/prof.png" alt="Profile" class="avatar">
+        <span class="status-indicator green"></span>
+      </div>
+      <button class="add-status">+ Add Status</button>
+    </div>
+
+    <div class="username">
+      <h2>blurtie</h2>
+      <span class="tag">blurtie#0000</span>
+      <div class="badges">
+        <span class="badge red"></span>
+        <span class="badge orange"></span>
+        <span class="badge blue"></span>
+      </div>
+    </div>
+
+    
+
+    <div class="editdiv">
+      <button class="edit-profile">Edit Profile</button>
+    </div>
+
+    <div class="editdiv1">
+      <button class="switch-account" onclick="toggleMenu()">Switch Account</button>
+    </div>
+
+    <div class="promo-box">
+      <div class="promo-title">
+        <p>Amp up your profile</p>
+        <p>X</p>
+      </div>
+      <div class="promo-div">
+      <button class="promo-button">
+        <img src="assets/nitro.png" class="promo-logo" />
+         Get Nitro
+      </button>
+      <button class="promo-button">
+        <img src="assets/shop.png" class="promo-logo" />
+         Shop
+      </button>
+      </div>
+    </div>
+
+  <div class="voice-box">
+    <p class="voice-label">In voice</p>
+    <div class="voice-content">
+      <div class="voice-avatars">
+      <img src="assets/prof2.png" alt="User 1">
+      <img src="assets/prof3.png" alt="User 2">
+      <div class="extra-users">+2</div>
+    </div>
+    <div class="voice-info">
+      <div class="room-name">
+        <i class="fas fa-volume-up voice-icon"></i>
+        <strong>Room 1</strong>
+      </div>
+      <p class="room-desc">in Kelas LQ01</p>
+    </div>
+  </div>
+  <button class="join-voice">Join Voice</button>
+</div>
+
+
+<div class="spotify-bottom-box">
+  <p class="spotify-label"><strong>Listening to Spotify</strong></p>
+  <div class="spotify-content">
+    <img src="assets/song.jpg" alt="Song Image" class="song-image">
+    <div class="song-info">
+      <strong>Before</strong>
+      <p>NIKI</p>
+      <div class="progress-bar">
+        <div class="progress" style="width: 45%;"></div>
+      </div>
+      <div class="timestamps">
+        <span>01:40</span>
+        <span>03:54</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="bottom-nav">
+  <div class="nav-item">
+    <img src="assets/home.png" alt="Home" class="nav-icon" />
+    <span><a href="home-discord.html">Home</a></span>
+    <div class="badge">23k</div>
+  </div>
+
+  <div class="nav-item">
+    <img src="assets/notification.png" alt="Notifications" class="nav-icon" />
+    <span>Notifications</span>
+    <div class="badge">10</div>
+  </div>
+
+  <div class="nav-item-profile">
+    <div class="profile-wrapper">
+      <img src="assets/prof.png" alt="You" class="profile-icon" />
+      <span class="status-indicator green"></span>
+    </div>
+    <span>You</span>
+  </div>
+</div>
+
+<div id="acc-option">
+  <h2>Account</h2>
+  <div class="acc1">
+    <img class="img1" src="assets/prof.png"/>
+    <p>blurtie#0000</p>
+  </div>
+  <div class="acc2">
+    <img class="img1" src="assets/prof2.png"/>
+    <p>jonathan#9999</p>
+  </div>
+  <div class="acc3">
+    <img class="img1" src="assets/prof3.png"/>
+    <p>NYOESGaming#0727</p>
+  </div>
+
+  <div class="add-acc">
+    <p>Add Account</p>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
+

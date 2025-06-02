@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Scan QR Code</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background-color: black;
+      height: 100vh;
+      overflow: hidden;
+      font-family: sans-serif;
+    }
+
+    .close-button {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      color: white;
+      font-size: 32px;
+      cursor: pointer;
+      z-index: 10;
+    }
+
+    .scanner-frame {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 250px;
+      height: 250px;
+      transform: translate(-50%, -50%);
+    }
+
+    .corner {
+      position: absolute;
+      width: 30px;
+      height: 30px;
+      border: 3px solid #4f70ff;
+    }
+
+    .top-left {
+      top: 0;
+      left: 0;
+      border-right: none;
+      border-bottom: none;
+    }
+
+    .top-right {
+      top: 0;
+      right: 0;
+      border-left: none;
+      border-bottom: none;
+    }
+
+    .bottom-left {
+      bottom: 0;
+      left: 0;
+      border-right: none;
+      border-top: none;
+    }
+
+    .bottom-right {
+      bottom: 0;
+      right: 0;
+      border-left: none;
+      border-top: none;
+    }
+  </style>
+</head>
+<body>
+  <a href="discord.html">
+  <div class="close-button">✕</div>
+  </a>
+
+  <div class="scanner-frame">
+    <div class="corner top-left"></div>
+    <div class="corner top-right"></div>
+    <div class="corner bottom-left"></div>
+    <div class="corner bottom-right"></div>
+  </div>
+
+</body>
+</html>
