@@ -513,7 +513,7 @@
   text-align: center;
   justify-content: center;
   align-items: center;
-  width: 35%;
+  width: 400px;
   overflow: hidden;
   transition: max-height 0.3s ease;
   max-height: 0;
